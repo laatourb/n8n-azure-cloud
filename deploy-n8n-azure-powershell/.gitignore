@@ -1,0 +1,48 @@
+# Fichiers de configuration sensibles
+.env
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+
+# Fichiers de sauvegarde
+*.bak
+*.backup
+*.old
+
+# Fichiers de logs
+*.log
+logs/
+log/
+
+# Fichiers temporaires
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Dossiers de dépendances
+node_modules/
+vendor/
+.venv/
+venv/
+env/
+
+# Fichiers de build
+dist/
+build/
+*.pyc
+__pycache__/
+
+# Fichiers IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Fichiers spécifiques au projet
+06-backup-config.ps1
+crt.pem
+priv.key

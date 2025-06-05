@@ -58,7 +58,3 @@ foreach ($domain in $domains) {
 Write-Host "`n=== Résumé des tests ===" -ForegroundColor Cyan
 Write-Host "1. Vérifiez que tous les domaines résolvent vers votre IP Azure" -ForegroundColor Yellow
 Write-Host "2. Test des connexions HTTP/HTTPS..." -ForegroundColor Yellow
-Write-Host "Pour activer SSL, allez dans Cloudflare > SSL/TLS > Overview" -ForegroundColor Yellow
-Write-Host "   - Sélectionnez 'Full' ou 'Full (strict)'" -ForegroundColor Yellow
-Write-Host "   - Activez 'Always Use HTTPS'" -ForegroundColor Yellow
-Write-Host "   - Activez 'Automatic HTTPS Rewrites'" -ForegroundColor Yellow 

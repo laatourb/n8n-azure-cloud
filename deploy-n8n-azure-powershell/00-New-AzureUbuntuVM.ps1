@@ -1,7 +1,7 @@
 [CmdletBinding()]
 param (
     [Parameter()]
-    [string]$ResourceGroupName = "n8n-testing-france",
+    [string]$ResourceGroupName = "n8n",
 
     [Parameter()]
     [string]$Location = "westus2",

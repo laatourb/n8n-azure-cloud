@@ -92,5 +92,4 @@ foreach ($domain in $domains) {
     }
 }
 
-Write-Host "`nConfiguration terminée. Vous pouvez maintenant tester avec :"
-Write-Host ".\Test-DomainConfig.ps1"
+Write-Host "`nConfiguration terminée."
